@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- ============ SEO BASE ============ -->
+  <title>Akimia Estudio | Arquitectura, Diseño y Construcción de proyectos llave en mano</title>
+  <meta name="description" content="Akimia Estudio reúne arquitectura, diseño y construcción en un solo equipo. Proyectos residenciales y comerciales del plano a la obra, con presupuesto claro y supervisión. Pide tu asesoría.">
+  <meta name="keywords" content="arquitectura, diseño arquitectónico, construcción, remodelación, ampliaciones, interiorismo, proyecto ejecutivo, constructora, estudio de arquitectura, casas modernas, obra llave en mano">
+  <meta name="author" content="Akimia Estudio">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#F4F5F6">
+  <meta name="color-scheme" content="light">
+  <!-- EDITAR al publicar: dominio real del cliente (canonical y URLs absolutas de Open Graph) -->
+  <!-- <link rel="canonical" href="https://TU-DOMINIO.com/"> -->
+
+  <!-- ============ OPEN GRAPH / TWITTER ============ -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:site_name" content="Akimia Estudio">
+  <meta property="og:title" content="Akimia Estudio | Del plano a la obra, sin perder un detalle">
+  <meta property="og:description" content="Arquitectura, diseño y construcción en un solo equipo. Tu proyecto, con planos claros, tiempos definidos y supervisión en cada etapa.">
+  <meta property="og:image" content="img/og-akimia.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logotipo de Akimia Estudio junto a un render arquitectónico que pasa del boceto a la casa terminada">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Akimia Estudio | Arquitectura, Diseño y Construcción">
+  <meta name="twitter:description" content="Del plano a la obra, sin perder un detalle.">
+  <meta name="twitter:image" content="img/og-akimia.jpg">
+
+  <!-- ============ ICONOS ============ -->
+  <link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
+  <link rel="icon" type="image/png" sizes="256x256" href="img/favicon-256.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+  <!-- ============ RENDIMIENTO: fuentes locales + imagen principal ============ -->
+  <link rel="preload" href="fonts/sora.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="img/hero-akimia.webp" as="image" type="image/webp" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Si JavaScript no carga, todo el contenido sigue visible -->
+  <script>document.documentElement.className = 'js';</script>
+
+  <!-- ============ DATOS ESTRUCTURADOS ============ -->
+  <!-- EDITAR al publicar: agregar url, telephone, address y sameAs (redes) del cliente -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["ProfessionalService", "GeneralContractor"],
+    "name": "Akimia Estudio",
+    "alternateName": "Akimia Estudio de Arquitectura",
+    "description": "Estudio de arquitectura, diseño y construcción. Proyectos residenciales y comerciales del plano a la obra, con presupuesto claro y supervisión en cada etapa.",
+    "slogan": "Del plano a la obra, sin perder un detalle.",
+    "image": "img/og-akimia.jpg",
+    "logo": "img/logo-akimia.png",
+    "knowsAbout": ["Arquitectura", "Diseño de interiores", "Construcción", "Remodelación", "Proyecto ejecutivo", "Supervisión de obra"],
+    "makesOffer": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Proyecto arquitectónico", "description": "Anteproyecto, renders, planos ejecutivos y trámites."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Diseño de interiores", "description": "Interiorismo, mobiliario a medida, materiales e iluminación."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Construcción y remodelación", "description": "Obra nueva, ampliaciones y remodelaciones con supervisión técnica."}}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "¿Cuánto cuesta construir o remodelar?", "acceptedAnswer": {"@type": "Answer", "text": "Depende del tamaño, los acabados y las condiciones del terreno. Después de conocer tu proyecto te entregamos un presupuesto detallado por escrito, sin compromiso."}},
+      {"@type": "Question", "name": "¿Cuánto tiempo toma un proyecto?", "acceptedAnswer": {"@type": "Answer", "text": "El diseño y la obra dependen del alcance de cada proyecto. Siempre te compartimos un calendario antes de empezar, para que sepas qué sigue y cuándo."}},
+      {"@type": "Question", "name": "¿Se encargan de los permisos y trámites?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Te orientamos y preparamos la documentación técnica que requiere tu proyecto para los trámites ante las autoridades correspondientes."}},
+      {"@type": "Question", "name": "¿Puedo ver cómo quedará antes de construir?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Trabajamos con planos y renders 3D para que veas cada espacio antes de poner el primer ladrillo y puedas decidir con seguridad."}},
+      {"@type": "Question", "name": "¿Trabajan remodelaciones y ampliaciones?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Renovamos casas, locales y oficinas existentes, cuidando lo que ya funciona y mejorando lo que no."}},
+      {"@type": "Question", "name": "¿Cómo empiezo mi proyecto con Akimia?", "acceptedAnswer": {"@type": "Answer", "text": "Escríbenos por WhatsApp o llena el formulario de contacto. Platicamos tu idea y agendamos una asesoría inicial."}}
+    ]
+  }
+  </script>
+</head>
+
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<!-- Iconos Phosphor (MIT) -->
+<symbol id="i-armchair" viewBox="0 0 256 256"><path d="M216,88.8V72a40,40,0,0,0-40-40H80A40,40,0,0,0,40,72V88.8a40,40,0,0,0,0,78.4V200a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V167.2a40,40,0,0,0,0-78.4ZM80,48h96a24,24,0,0,1,24,24V88.8A40.07,40.07,0,0,0,168,128H88A40.07,40.07,0,0,0,56,88.8V72A24,24,0,0,1,80,48ZM208.39,152H208a8,8,0,0,0-8,8v40H56V160a8,8,0,0,0-8-8h-.39A24,24,0,1,1,72,128v40a8,8,0,0,0,16,0V144h80v24a8,8,0,0,0,16,0V128a24,24,0,1,1,24.39,24Z"/></symbol>
+<symbol id="i-arrow-up-right" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"/></symbol>
+<symbol id="i-calendar-check" viewBox="0 0 256 256"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-38.34-85.66a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L116,164.69l42.34-42.35A8,8,0,0,1,169.66,122.34Z"/></symbol>
+<symbol id="i-caret-down" viewBox="0 0 256 256"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"/></symbol>
+<symbol id="i-chat-circle-text" viewBox="0 0 256 256"><path d="M168,112a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,112Zm-8,24H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Zm72-8A104,104,0,0,1,79.12,219.82L45.07,231.17a16,16,0,0,1-20.24-20.24l11.35-34.05A104,104,0,1,1,232,128Zm-16,0A88,88,0,1,0,51.81,172.06a8,8,0,0,1,.66,6.54L40,216,77.4,203.53a7.85,7.85,0,0,1,2.53-.42,8,8,0,0,1,4,1.08A88,88,0,0,0,216,128Z"/></symbol>
+<symbol id="i-check" viewBox="0 0 256 256"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"/></symbol>
+<symbol id="i-compass-tool" viewBox="0 0 256 256"><path d="M215.12,123.64a8,8,0,1,0-14.24-7.28,79.58,79.58,0,0,1-33.08,33.5l-16.58-37.32A40,40,0,0,0,136,40.8V24a8,8,0,0,0-16,0V40.8a40,40,0,0,0-15.22,71.74L56.69,220.75a8,8,0,1,0,14.62,6.5l25.14-56.56A95.48,95.48,0,0,0,128,176a99.13,99.13,0,0,0,31.6-5.21l25.09,56.46a8,8,0,0,0,14.62-6.5l-25-56.25A95.81,95.81,0,0,0,215.12,123.64ZM128,56a24,24,0,1,1-24,24A24,24,0,0,1,128,56Zm0,104a79.52,79.52,0,0,1-25-4l16.42-36.94a39.81,39.81,0,0,0,17.2,0l16.48,37.06A83.21,83.21,0,0,1,128,160Z"/></symbol>
+<symbol id="i-envelope-simple" viewBox="0 0 256 256"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z"/></symbol>
+<symbol id="i-eye" viewBox="0 0 256 256"><path d="M247.31,124.76c-.35-.79-8.82-19.58-27.65-38.41C194.57,61.26,162.88,48,128,48S61.43,61.26,36.34,86.35C17.51,105.18,9,124,8.69,124.76a8,8,0,0,0,0,6.5c.35.79,8.82,19.57,27.65,38.4C61.43,194.74,93.12,208,128,208s66.57-13.26,91.66-38.34c18.83-18.83,27.3-37.61,27.65-38.4A8,8,0,0,0,247.31,124.76ZM128,192c-30.78,0-57.67-11.19-79.93-33.25A133.47,133.47,0,0,1,25,128,133.33,133.33,0,0,1,48.07,97.25C70.33,75.19,97.22,64,128,64s57.67,11.19,79.93,33.25A133.46,133.46,0,0,1,231.05,128C223.84,141.46,192.43,192,128,192Zm0-112a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Z"/></symbol>
+<symbol id="i-facebook-logo" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"/></symbol>
+<symbol id="i-handshake" viewBox="0 0 256 256"><path d="M254.3,107.91,228.78,56.85a16,16,0,0,0-21.47-7.15L182.44,62.13,130.05,48.27a8.14,8.14,0,0,0-4.1,0L73.56,62.13,48.69,49.7a16,16,0,0,0-21.47,7.15L1.7,107.9a16,16,0,0,0,7.15,21.47l27,13.51,55.49,39.63a8.06,8.06,0,0,0,2.71,1.25l64,16a8,8,0,0,0,7.6-2.1l55.07-55.08,26.42-13.21a16,16,0,0,0,7.15-21.46Zm-54.89,33.37L165,113.72a8,8,0,0,0-10.68.61C136.51,132.27,116.66,130,104,122L147.24,80h31.81l27.21,54.41ZM41.53,64,62,74.22,36.43,125.27,16,115.06Zm116,119.13L99.42,168.61l-49.2-35.14,28-56L128,64.28l9.8,2.59-45,43.68-.08.09a16,16,0,0,0,2.72,24.81c20.56,13.13,45.37,11,64.91-5L188,152.66Zm62-57.87-25.52-51L214.47,64,240,115.06Zm-87.75,92.67a8,8,0,0,1-7.75,6.06,8.13,8.13,0,0,1-1.95-.24L80.41,213.33a7.89,7.89,0,0,1-2.71-1.25L51.35,193.26a8,8,0,0,1,9.3-13l25.11,17.94L126,208.24A8,8,0,0,1,131.82,217.94Z"/></symbol>
+<symbol id="i-hard-hat" viewBox="0 0 256 256"><path d="M224,152V136a96.37,96.37,0,0,0-64-90.51V40a16,16,0,0,0-16-16H112A16,16,0,0,0,96,40v5.49A96.37,96.37,0,0,0,32,136v16a16,16,0,0,0-16,16v24a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V168A16,16,0,0,0,224,152Zm-16-16v16H160V62.67A80.36,80.36,0,0,1,208,136ZM144,40V152H112V40ZM48,136A80.36,80.36,0,0,1,96,62.67V152H48Zm176,56H32V168H224v24Z"/></symbol>
+<symbol id="i-instagram-logo" viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"/></symbol>
+<symbol id="i-pencil-ruler" viewBox="0 0 256 256"><path d="M208,32H160a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H160V176h24a8,8,0,0,0,0-16H160V136h24a8,8,0,0,0,0-16H160V96h24a8,8,0,0,0,0-16H160V48h48V208ZM77.66,26.34a8,8,0,0,0-11.32,0l-32,32A8,8,0,0,0,32,64V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V64a8,8,0,0,0-2.34-5.66ZM48,176V80H64v96ZM80,80H96v96H80ZM72,43.31,92.69,64H51.31ZM48,208V192H96v16Z"/></symbol>
+<symbol id="i-plus" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></symbol>
+<symbol id="i-receipt" viewBox="0 0 256 256"><path d="M72,104a8,8,0,0,1,8-8h96a8,8,0,0,1,0,16H80A8,8,0,0,1,72,104Zm8,40h96a8,8,0,0,0,0-16H80a8,8,0,0,0,0,16ZM232,56V208a8,8,0,0,1-11.58,7.15L192,200.94l-28.42,14.21a8,8,0,0,1-7.16,0L128,200.94,99.58,215.15a8,8,0,0,1-7.16,0L64,200.94,35.58,215.15A8,8,0,0,1,24,208V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56Zm-16,0H40V195.06l20.42-10.22a8,8,0,0,1,7.16,0L96,199.06l28.42-14.22a8,8,0,0,1,7.16,0L160,199.06l28.42-14.22a8,8,0,0,1,7.16,0L216,195.06Z"/></symbol>
+<symbol id="i-tiktok-logo" viewBox="0 0 256 256"><path d="M224,72a48.05,48.05,0,0,1-48-48,8,8,0,0,0-8-8H128a8,8,0,0,0-8,8V156a20,20,0,1,1-28.57-18.08A8,8,0,0,0,96,130.69V88a8,8,0,0,0-9.4-7.88C50.91,86.48,24,119.1,24,156a76,76,0,0,0,152,0V116.29A103.25,103.25,0,0,0,224,128a8,8,0,0,0,8-8V80A8,8,0,0,0,224,72Zm-8,39.64a87.19,87.19,0,0,1-43.33-16.15A8,8,0,0,0,160,102v54a60,60,0,0,1-120,0c0-25.9,16.64-49.13,40-57.6v27.67A36,36,0,1,0,136,156V32h24.5A64.14,64.14,0,0,0,216,87.5Z"/></symbol>
+<symbol id="i-whatsapp-logo" viewBox="0 0 256 256"><path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155l14.61-9.74,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"/></symbol>
+<symbol id="i-x" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></symbol>
+</svg>
+
+<!-- ================================================================
+     LOADER: el logo pasa de "plano" (gris) a "obra" (color) mientras carga
+     ================================================================ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__half loader__half--top"></div>
+  <div class="loader__half loader__half--bottom"></div>
+  <span class="loader__seam" aria-hidden="true"></span>
+  <div class="loader__core">
+    <div class="loader__ring" aria-hidden="true">
+      <svg viewBox="0 0 120 120">
+        <circle class="loader__track" cx="60" cy="60" r="54"/>
+        <circle class="loader__arc" cx="60" cy="60" r="54" id="loaderArc"/>
+      </svg>
+      <img src="img/favicon-256.png" alt="" width="64" height="64">
+    </div>
+    <div class="loader__logo" aria-hidden="true">
+      <img class="loader__logo-base" src="img/logo-akimia.webp" alt="" width="900" height="448">
+      <img class="loader__logo-fill" src="img/logo-akimia.webp" alt="" width="900" height="448">
+    </div>
+    <p class="loader__meta"><span class="loader__pct" id="loaderPct">0</span><span class="loader__unit">%</span><span class="loader__txt">Trazando tu proyecto</span></p>
+  </div>
+</div>
+
+<div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+<!-- ================================================================
+     HEADER
+     ================================================================ -->
+<header class="header" id="header">
+  <div class="header__bar">
+    <a class="header__brand" href="#inicio" aria-label="Akimia Estudio, ir al inicio">
+      <img src="img/logo-akimia.webp" alt="Akimia Estudio. Arquitectura, diseño, construcción" width="900" height="448">
+    </a>
+    <nav class="header__nav" aria-label="Principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#porque">Por qué Akimia</a>
+      <a href="#preguntas">Preguntas</a>
+    </nav>
+    <div class="header__actions">
+      <a class="btn btn--primary btn--sm" href="#contacto" data-wa="Hola Akimia Estudio, quiero platicar sobre mi proyecto." data-magnetic>
+        <span>Hablemos de tu obra</span>
+        <svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+      </a>
+      <button class="burger" id="burger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true" inert>
+  <nav class="menu__nav" aria-label="Menú móvil">
+    <a href="#servicios" style="--i:0"><span>Servicios</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+    <a href="#proceso" style="--i:1"><span>Proceso</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+    <a href="#proyectos" style="--i:2"><span>Proyectos</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+    <a href="#porque" style="--i:3"><span>Por qué Akimia</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+    <a href="#preguntas" style="--i:4"><span>Preguntas</span><svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+  </nav>
+  <div class="menu__foot">
+    <a class="btn btn--primary" href="#contacto" data-wa="Hola Akimia Estudio, quiero platicar sobre mi proyecto.">
+      <svg class="ico" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>
+      <span>Escríbenos por WhatsApp</span>
+    </a>
+    <p>Arquitectura - Diseño - Construcción</p>
+  </div>
+</div>
+
+<main id="contenido">
+
+<!-- ================================================================
+     HERO
+     ================================================================ -->
+<section class="hero" id="inicio" aria-labelledby="hero-title">
+  <canvas class="hero__canvas" id="heroCanvas" aria-hidden="true"></canvas>
+  <div class="hero__glow" aria-hidden="true"></div>
+
+  <div class="container hero__grid">
+    <div class="hero__copy" id="heroCopy">
+      <p class="eyebrow" data-hero style="--n:0">Arquitectura - Diseño - Construcción</p>
+      <h1 class="hero__title" id="hero-title">
+        <span class="line"><span style="--n:1">Del plano</span></span>
+        <span class="line"><span style="--n:2">a la <em>obra.</em></span></span>
+        <span class="sr-only"> Akimia Estudio: arquitectura, diseño y construcción.</span>
+      </h1>
+      <p class="hero__lead" data-hero style="--n:4">Arquitectura, diseño y construcción en un solo equipo, con planos claros, tiempos definidos y cero improvisación.</p>
+      <div class="hero__cta" data-hero style="--n:5">
+        <a class="btn btn--primary btn--lg" href="#contacto" data-wa="Hola Akimia Estudio, quiero mi proyecto. ¿Podemos agendar una asesoría?" data-magnetic>
+          <span>Quiero mi proyecto</span>
+          <svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+        </a>
+        <a class="btn btn--soft btn--lg" href="#proceso">
+          <span>Ver cómo trabajamos</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__visual" data-hero style="--n:3">
+      <div class="hero__stage" id="heroStage">
+        <div class="hero__float">
+          <figure class="hero__card">
+            <img class="hero__img" id="heroImg" src="img/hero-akimia.webp" width="901" height="1600" fetchpriority="high" decoding="async"
+                 alt="Render arquitectónico de una residencia moderna: a la izquierda el boceto técnico y a la derecha la casa terminada al atardecer">
+            <span class="hero__scan" aria-hidden="true"></span>
+          </figure>
+          <div class="hero__seal" aria-hidden="true">
+            <svg viewBox="0 0 200 200">
+              <defs><path id="sealPath" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+              <text><textPath href="#sealPath" textLength="486" lengthAdjust="spacing">ARQUITECTURA - DISEÑO - CONSTRUCCIÓN - </textPath></text>
+            </svg>
+            <img src="img/favicon-256.png" alt="" width="64" height="64">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     MARQUEE (único de la página: franja de disciplinas)
+     ================================================================ -->
+<section class="marquee" aria-hidden="true">
+  <div class="marquee__track" id="marqueeTrack">
+    <div class="marquee__group">
+      <span>Arquitectura</span><i></i><span class="o">Diseño</span><i></i><span>Construcción</span><i></i><span class="o">Remodelación</span><i></i><span>Interiorismo</span><i></i><span class="o">Proyecto ejecutivo</span><i></i><span>Supervisión de obra</span><i></i>
+    </div>
+    <div class="marquee__group">
+      <span>Arquitectura</span><i></i><span class="o">Diseño</span><i></i><span>Construcción</span><i></i><span class="o">Remodelación</span><i></i><span>Interiorismo</span><i></i><span class="o">Proyecto ejecutivo</span><i></i><span>Supervisión de obra</span><i></i>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     MANIFIESTO: las palabras se "construyen" (se oscurecen) con el scroll
+     ================================================================ -->
+<section class="manifesto" id="nosotros" aria-labelledby="manifesto-title">
+  <div class="container">
+    <h2 class="sr-only" id="manifesto-title">Quiénes somos</h2>
+    <p class="manifesto__text" id="manifestoText">Un buen espacio no se improvisa. Se piensa con método, se dibuja con precisión y se construye con la misma mano que lo imaginó. Eso es Akimia: una sola voz desde el primer trazo hasta la entrega de llaves.</p>
+
+    <!-- Cifras basadas en la propuesta de valor del estudio. Ajustar si el cliente tiene otras -->
+    <div class="stats">
+      <div class="stat" data-reveal>
+        <span class="stat__n"><b data-count="3">3</b></span>
+        <p>Disciplinas bajo un mismo techo: arquitectura, diseño y construcción.</p>
+      </div>
+      <div class="stat" data-reveal style="--d:120">
+        <span class="stat__n"><b data-count="1">1</b></span>
+        <p>Equipo responsable de tu proyecto, de principio a fin.</p>
+      </div>
+      <div class="stat" data-reveal style="--d:240">
+        <span class="stat__n"><b data-count="5">5</b></span>
+        <p>Etapas claras, con entregables y decisiones en cada una.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     REVEAL: la foto se abre a pantalla completa y pasa de boceto a obra
+     ================================================================ -->
+<section class="reveal" id="plano-obra" aria-labelledby="reveal-title">
+  <div class="reveal__pin" id="revealPin">
+    <div class="reveal__intro" id="revealIntro">
+      <h2 id="reveal-title" data-split>Cada obra empieza como una línea en el papel.</h2>
+    </div>
+
+    <div class="reveal__frame" id="revealFrame">
+      <div class="reveal__layer reveal__layer--sketch" id="revealSketch">
+        <img src="img/villa-plano.webp" width="2000" height="1334" loading="lazy" decoding="async"
+             alt="Boceto técnico de una residencia moderna con terraza y alberca">
+      </div>
+      <div class="reveal__layer reveal__layer--color" id="revealColor">
+        <img src="img/villa.webp" width="2000" height="1334" loading="lazy" decoding="async"
+             alt="Residencia moderna terminada con terraza cubierta, fachada blanca y alberca">
+      </div>
+      <span class="reveal__scan" id="revealScan" aria-hidden="true"></span>
+      <div class="reveal__scrim" id="revealScrim" aria-hidden="true"></div>
+    </div>
+
+    <div class="reveal__copy" id="revealCopy">
+      <p class="reveal__kicker">Y termina en el lugar donde quieres vivir.</p>
+      <p class="reveal__text">Te acompañamos en cada línea, cada muro y cada acabado, para que lo que imaginas sea exactamente lo que habitas.</p>
+      <a class="btn btn--primary btn--lg" href="#contacto" data-wa="Hola Akimia Estudio, estoy listo para empezar mi proyecto." data-magnetic>
+        <span>Estoy listo para empezar</span>
+        <svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     SERVICIOS: tarjetas que se apilan (sticky stack) con profundidad 3D
+     ================================================================ -->
+<section class="services" id="servicios" aria-labelledby="services-title">
+  <div class="container services__head">
+    <h2 id="services-title" data-split>Tres disciplinas. Un solo equipo.</h2>
+    <p data-reveal>Reunimos arquitectura, diseño y construcción para que nadie tenga que traducir tu idea de un proveedor a otro.</p>
+  </div>
+
+  <div class="container stack" id="stack">
+    <article class="svc svc--light" style="--i:0" data-svc>
+      <div class="svc__inner">
+        <div class="svc__media">
+          <img src="img/arquitectura.webp" width="1400" height="788" loading="lazy" decoding="async" data-parallax="0.06"
+               alt="Arquitecto dibujando planos arquitectónicos sobre una mesa de trabajo">
+        </div>
+        <div class="svc__body">
+          <span class="svc__num" aria-hidden="true">01</span>
+          <svg class="ico ico--xl svc__ico" aria-hidden="true"><use href="#i-compass-tool"/></svg>
+          <h3>Arquitectura</h3>
+          <p class="svc__lead">Proyectamos espacios que funcionan bien y se sienten mejor.</p>
+          <p>Del análisis del terreno a los planos ejecutivos. Ves tu proyecto en renders realistas antes de construir, para decidir con certeza.</p>
+          <ul class="ticks">
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Análisis del terreno y programa de necesidades</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Anteproyecto y renders 3D</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Planos ejecutivos y memorias técnicas</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Documentación para permisos y licencias</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <article class="svc svc--tone" style="--i:1" data-svc>
+      <div class="svc__inner">
+        <div class="svc__media">
+          <img src="img/diseno.webp" width="1400" height="952" loading="lazy" decoding="async" data-parallax="0.06"
+               alt="Sala moderna con muro de madera, sofá claro y cocina integrada al fondo">
+        </div>
+        <div class="svc__body">
+          <span class="svc__num" aria-hidden="true">02</span>
+          <svg class="ico ico--xl svc__ico" aria-hidden="true"><use href="#i-armchair"/></svg>
+          <h3>Diseño</h3>
+          <p class="svc__lead">Interiores con identidad, pensados para vivirse todos los días.</p>
+          <p>Materiales, luz y mobiliario trabajando juntos. Cada detalle responde a cómo vives o a cómo trabaja tu negocio.</p>
+          <ul class="ticks">
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Interiorismo y distribución de espacios</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Mobiliario y carpintería a medida</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Selección de materiales y acabados</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Iluminación y ambientación</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <article class="svc svc--dark" style="--i:2" data-svc>
+      <div class="svc__inner">
+        <div class="svc__media">
+          <img src="img/construccion.webp" width="1400" height="928" loading="lazy" decoding="async" data-parallax="0.06"
+               alt="Vista aérea de una obra en construcción con estructura de acero y trabajadores con casco">
+        </div>
+        <div class="svc__body">
+          <span class="svc__num" aria-hidden="true">03</span>
+          <svg class="ico ico--xl svc__ico" aria-hidden="true"><use href="#i-hard-hat"/></svg>
+          <h3>Construcción</h3>
+          <p class="svc__lead">Obra ordenada, con tiempos y costos claros desde el primer día.</p>
+          <p>Quien diseñó tu proyecto lo construye. Supervisamos cada etapa para que lo levantado sea idéntico a lo planeado.</p>
+          <ul class="ticks">
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Obra nueva, ampliaciones y remodelaciones</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Presupuesto detallado y calendario de obra</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Supervisión técnica en cada etapa</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Entrega con revisión final contigo</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <div class="container services__cta" data-reveal>
+    <p>¿Aún no sabes por dónde empezar?</p>
+    <a class="btn btn--ink btn--lg" href="#contacto" data-wa="Hola Akimia Estudio, tengo una idea y quiero que me ayuden a aterrizarla." data-magnetic>
+      <span>Cuéntanos tu idea</span>
+      <svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ================================================================
+     PROCESO: maqueta 3D que se construye con el scroll
+     ================================================================ -->
+<section class="process" id="proceso" aria-labelledby="process-title">
+  <div class="process__pin" id="processPin">
+    <div class="container process__layout">
+      <div class="process__side">
+        <h2 id="process-title" data-split>Así se levanta un proyecto con Akimia</h2>
+        <ol class="steps" id="steps">
+          <li class="step is-active" data-step="0">
+            <span class="step__n" aria-hidden="true">01</span>
+            <h3>Escuchamos</h3>
+            <p>Conocemos tu terreno, tu presupuesto y la forma en que quieres vivir o trabajar.</p>
+          </li>
+          <li class="step" data-step="1">
+            <span class="step__n" aria-hidden="true">02</span>
+            <h3>Diseñamos</h3>
+            <p>Convertimos tus ideas en un proyecto con planos, renders y decisiones claras.</p>
+          </li>
+          <li class="step" data-step="2">
+            <span class="step__n" aria-hidden="true">03</span>
+            <h3>Presupuestamos</h3>
+            <p>Definimos costos, tiempos y alcances por escrito, antes de mover la primera piedra.</p>
+          </li>
+          <li class="step" data-step="3">
+            <span class="step__n" aria-hidden="true">04</span>
+            <h3>Construimos</h3>
+            <p>Ejecutamos la obra con supervisión técnica y avances que puedes ver en cada etapa.</p>
+          </li>
+          <li class="step" data-step="4">
+            <span class="step__n" aria-hidden="true">05</span>
+            <h3>Entregamos</h3>
+            <p>Revisamos cada detalle contigo y te entregamos un espacio listo para habitarse.</p>
+          </li>
+        </ol>
+        <div class="process__cta" id="processCta">
+          <a class="btn btn--primary btn--lg" href="#contacto" data-wa="Hola Akimia Estudio, quiero empezar mi obra. ¿Cómo seguimos?" data-magnetic>
+            <span>Quiero empezar mi obra</span>
+            <svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="process__stage">
+        <canvas id="buildCanvas" role="img" aria-label="Maqueta 3D de una residencia que se construye a medida que avanzas por las etapas del proceso"></canvas>
+        <div class="process__meter" aria-hidden="true"><span id="processMeter"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     PROYECTOS: galería horizontal (desktop) / carrusel con snap (móvil)
+     Las fotos son de stock libre (Unsplash). REEMPLAZAR por obras reales del cliente.
+     ================================================================ -->
+<section class="work" id="proyectos" aria-labelledby="work-title">
+  <div class="work__pin" id="workPin">
+    <div class="work__track" id="workTrack">
+
+      <div class="work__intro">
+        <p class="eyebrow">Proyectos</p>
+        <h2 id="work-title">Desde una casa hasta un edificio.</h2>
+        <p>Estos son los tipos de proyecto que diseñamos y construimos. Cuéntanos cuál es el tuyo.</p>
+      </div>
+
+      <article class="pcard pcard--tall" data-card>
+        <button class="pcard__media" type="button" data-open aria-label="Ampliar imagen: Residencia contemporánea">
+          <img src="img/residencia.webp" width="1300" height="866" loading="lazy" decoding="async" data-px
+               alt="Residencia contemporánea al atardecer con volúmenes oscuros, árbol y luz cálida interior">
+          <span class="pcard__zoom" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span>
+        </button>
+        <div class="pcard__body">
+          <h3>Residencia contemporánea</h3>
+          <p>Casas de líneas limpias, mucha luz y relación directa con el jardín.</p>
+          <a class="link" href="#contacto" data-wa="Hola Akimia Estudio, me interesa un proyecto como: Residencia contemporánea.">Quiero algo así <svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+        </div>
+      </article>
+
+      <article class="pcard pcard--wide" data-card>
+        <button class="pcard__media" type="button" data-open aria-label="Ampliar imagen: Ampliación y remodelación">
+          <img src="img/ampliacion.webp" width="1300" height="866" loading="lazy" decoding="async" data-px
+               alt="Casa con ampliación moderna en madera y metal negro junto a un árbol grande">
+          <span class="pcard__zoom" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span>
+        </button>
+        <div class="pcard__body">
+          <h3>Ampliación y remodelación</h3>
+          <p>Más espacio y mejor uso para la casa que ya tienes.</p>
+          <a class="link" href="#contacto" data-wa="Hola Akimia Estudio, me interesa un proyecto como: Ampliación y remodelación.">Quiero algo así <svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+        </div>
+      </article>
+
+      <article class="pcard pcard--tall" data-card>
+        <button class="pcard__media" type="button" data-open aria-label="Ampliar imagen: Cocinas y espacios integrados">
+          <img src="img/cocina.webp" width="1200" height="800" loading="lazy" decoding="async" data-px
+               alt="Cocina moderna con isla blanca, banquillos de madera y lámparas colgantes negras">
+          <span class="pcard__zoom" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span>
+        </button>
+        <div class="pcard__body">
+          <h3>Cocinas y espacios integrados</h3>
+          <p>Áreas sociales abiertas, funcionales y fáciles de habitar.</p>
+          <a class="link" href="#contacto" data-wa="Hola Akimia Estudio, me interesa un proyecto como: Cocinas y espacios integrados.">Quiero algo así <svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+        </div>
+      </article>
+
+      <article class="pcard pcard--wide" data-card>
+        <button class="pcard__media" type="button" data-open aria-label="Ampliar imagen: Oficinas y locales">
+          <img src="img/oficina.webp" width="1200" height="801" loading="lazy" decoding="async" data-px
+               alt="Oficina moderna con pasillo de cristal, cocina oscura y piso continuo">
+          <span class="pcard__zoom" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span>
+        </button>
+        <div class="pcard__body">
+          <h3>Oficinas y locales</h3>
+          <p>Espacios de trabajo y comercio que proyectan la identidad de tu marca.</p>
+          <a class="link" href="#contacto" data-wa="Hola Akimia Estudio, me interesa un proyecto como: Oficinas y locales.">Quiero algo así <svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+        </div>
+      </article>
+
+      <article class="pcard pcard--tall" data-card>
+        <button class="pcard__media" type="button" data-open aria-label="Ampliar imagen: Obra en ejecución">
+          <img src="img/obra.webp" width="1300" height="866" loading="lazy" decoding="async" data-px
+               alt="Equipo de obra con cascos y chalecos revisando una losa de cimentación desde arriba">
+          <span class="pcard__zoom" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span>
+        </button>
+        <div class="pcard__body">
+          <h3>Obra en ejecución</h3>
+          <p>Supervisión técnica en cada etapa, con avances que puedes ver.</p>
+          <a class="link" href="#contacto" data-wa="Hola Akimia Estudio, me interesa un proyecto de obra nueva.">Quiero algo así <svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+        </div>
+      </article>
+
+      <article class="pcard pcard--wide" data-card>
+        <button class="pcard__media" type="button" data-open aria-label="Ampliar imagen: Vivienda vertical">
+          <img src="img/edificio.webp" width="1100" height="1467" loading="lazy" decoding="async" data-px
+               alt="Edificio habitacional contemporáneo con fachada de paneles oscuros visto desde abajo">
+          <span class="pcard__zoom" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span>
+        </button>
+        <div class="pcard__body">
+          <h3>Vivienda vertical</h3>
+          <p>Edificios habitacionales proyectados con criterio, orden y buen uso del terreno.</p>
+          <a class="link" href="#contacto" data-wa="Hola Akimia Estudio, me interesa un proyecto como: Vivienda vertical.">Quiero algo así <svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+        </div>
+      </article>
+
+    </div>
+    <div class="work__bar" aria-hidden="true"><span id="workBar"></span></div>
+  </div>
+</section>
+
+<!-- ================================================================
+     BANDA NARANJA: pausa de color y CTA
+     ================================================================ -->
+<section class="band" aria-labelledby="band-title">
+  <div class="band__art" aria-hidden="true"><span class="band__tri"></span></div>
+  <div class="container band__inner">
+    <h2 id="band-title" data-split>Si ya lo imaginas, ya podemos dibujarlo.</h2>
+    <div class="band__side" data-reveal>
+      <p>Cuéntanos tu idea y te decimos cómo hacerla realidad.</p>
+      <a class="btn btn--ink btn--lg" href="#contacto" data-wa="Hola Akimia Estudio, quiero que dibujen mi idea." data-magnetic>
+        <span>Dibujemos mi idea</span>
+        <svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     POR QUÉ AKIMIA: bento de 5 celdas
+     ================================================================ -->
+<section class="why" id="porque" aria-labelledby="why-title">
+  <div class="container">
+    <h2 id="why-title" data-split>Lo que cambia cuando todo está en una sola mano</h2>
+
+    <div class="bento">
+      <article class="bx bx--a" data-tilt data-reveal>
+        <img src="img/fachada.webp" width="1500" height="1000" loading="lazy" decoding="async" data-parallax="0.05"
+             alt="Fachada moderna con paneles de madera, volumen blanco y jardín frontal">
+        <div class="bx__shade" aria-hidden="true"></div>
+        <div class="bx__body">
+          <svg class="ico ico--lg" aria-hidden="true"><use href="#i-handshake"/></svg>
+          <h3>Un solo responsable, de principio a fin</h3>
+          <p>Quien diseña tu proyecto es quien lo construye. Sin intermediarios y sin versiones distintas de la verdad.</p>
+        </div>
+      </article>
+
+      <article class="bx bx--b" data-tilt data-reveal style="--d:80">
+        <svg class="ico ico--lg" aria-hidden="true"><use href="#i-receipt"/></svg>
+        <h3>Presupuesto por escrito</h3>
+        <p>Alcances, costos y tiempos definidos antes de empezar.</p>
+      </article>
+
+      <article class="bx bx--c" data-tilt data-reveal style="--d:160">
+        <svg class="ico ico--lg" aria-hidden="true"><use href="#i-eye"/></svg>
+        <h3>Supervisión en obra</h3>
+        <p>Revisamos cada etapa para que lo construido sea igual a lo diseñado.</p>
+      </article>
+
+      <article class="bx bx--d" data-tilt data-reveal>
+        <svg class="ico ico--lg" aria-hidden="true"><use href="#i-pencil-ruler"/></svg>
+        <h3>Diseño a tu medida</h3>
+        <p>Nada de plantillas. Cada espacio responde a tu forma de vivir y a tu terreno.</p>
+      </article>
+
+      <article class="bx bx--e" data-tilt data-reveal style="--d:120">
+        <svg class="ico ico--lg" aria-hidden="true"><use href="#i-chat-circle-text"/></svg>
+        <h3>Comunicación clara</h3>
+        <p>Avances y decisiones por WhatsApp, sin tener que perseguir a nadie para saber cómo va tu obra.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     PREGUNTAS FRECUENTES
+     ================================================================ -->
+<section class="faq" id="preguntas" aria-labelledby="faq-title">
+  <div class="container faq__grid">
+    <div class="faq__aside">
+      <h2 id="faq-title" data-split>Antes de escribirnos, quizá te preguntes</h2>
+      <a class="btn btn--ink btn--lg" href="#contacto" data-wa="Hola Akimia Estudio, tengo una duda sobre mi proyecto." data-magnetic>
+        <svg class="ico" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>
+        <span>Resolvamos tu duda</span>
+      </a>
+    </div>
+
+    <div class="faq__list" id="faqList">
+      <div class="qa is-open" data-reveal>
+        <h3><button type="button" aria-expanded="true" aria-controls="qa-1" id="qb-1"><span>¿Cuánto cuesta construir o remodelar?</span><span class="qa__i" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span></button></h3>
+        <div class="qa__panel" id="qa-1" role="region" aria-labelledby="qb-1"><div><p>Depende del tamaño, los acabados y las condiciones del terreno. Después de conocer tu proyecto te entregamos un presupuesto detallado por escrito, sin compromiso.</p></div></div>
+      </div>
+      <div class="qa" data-reveal>
+        <h3><button type="button" aria-expanded="false" aria-controls="qa-2" id="qb-2"><span>¿Cuánto tiempo toma un proyecto?</span><span class="qa__i" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span></button></h3>
+        <div class="qa__panel" id="qa-2" role="region" aria-labelledby="qb-2"><div><p>El diseño y la obra dependen del alcance de cada proyecto. Siempre te compartimos un calendario antes de empezar, para que sepas qué sigue y cuándo.</p></div></div>
+      </div>
+      <div class="qa" data-reveal>
+        <h3><button type="button" aria-expanded="false" aria-controls="qa-3" id="qb-3"><span>¿Se encargan de los permisos y trámites?</span><span class="qa__i" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span></button></h3>
+        <div class="qa__panel" id="qa-3" role="region" aria-labelledby="qb-3"><div><p>Sí. Te orientamos y preparamos la documentación técnica que requiere tu proyecto para los trámites ante las autoridades correspondientes.</p></div></div>
+      </div>
+      <div class="qa" data-reveal>
+        <h3><button type="button" aria-expanded="false" aria-controls="qa-4" id="qb-4"><span>¿Puedo ver cómo quedará antes de construir?</span><span class="qa__i" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span></button></h3>
+        <div class="qa__panel" id="qa-4" role="region" aria-labelledby="qb-4"><div><p>Sí. Trabajamos con planos y renders 3D para que veas cada espacio antes de poner el primer ladrillo y puedas decidir con seguridad.</p></div></div>
+      </div>
+      <div class="qa" data-reveal>
+        <h3><button type="button" aria-expanded="false" aria-controls="qa-5" id="qb-5"><span>¿Trabajan remodelaciones y ampliaciones?</span><span class="qa__i" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span></button></h3>
+        <div class="qa__panel" id="qa-5" role="region" aria-labelledby="qb-5"><div><p>Sí. Renovamos casas, locales y oficinas existentes, cuidando lo que ya funciona y mejorando lo que no.</p></div></div>
+      </div>
+      <div class="qa" data-reveal>
+        <h3><button type="button" aria-expanded="false" aria-controls="qa-6" id="qb-6"><span>¿Cómo empiezo mi proyecto con Akimia?</span><span class="qa__i" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span></button></h3>
+        <div class="qa__panel" id="qa-6" role="region" aria-labelledby="qb-6"><div><p>Escríbenos por WhatsApp o llena el formulario de contacto. Platicamos tu idea y agendamos una asesoría inicial.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     CONTACTO: el formulario arma el mensaje y abre WhatsApp
+     ================================================================ -->
+<section class="contact" id="contacto" aria-labelledby="contact-title">
+  <div class="contact__grid-bg" aria-hidden="true"></div>
+  <div class="container contact__layout">
+    <div class="contact__copy">
+      <h2 id="contact-title" data-split>¿Listo para construir lo que imaginas?</h2>
+      <p data-reveal>Cuéntanos qué tienes en mente. Te respondemos por WhatsApp para agendar una asesoría inicial, sin compromiso.</p>
+      <ul class="contact__list" data-reveal>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg><div><span>WhatsApp</span><a href="#contacto" data-wa="Hola Akimia Estudio, quiero información sobre un proyecto." data-phone>+52 000 000 0000</a></div></li>
+        <li data-email-row hidden><svg class="ico" aria-hidden="true"><use href="#i-envelope-simple"/></svg><div><span>Correo</span><a href="#" data-email></a></div></li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-calendar-check"/></svg><div><span>Primera asesoría</span><strong>Sin compromiso</strong></div></li>
+      </ul>
+    </div>
+
+    <form class="form" id="contactForm" novalidate data-reveal>
+      <div class="field">
+        <label for="f-name">Nombre</label>
+        <input id="f-name" name="name" type="text" autocomplete="name" required placeholder="Cómo te llamas" aria-describedby="e-name">
+        <p class="field__err" id="e-name" role="alert"></p>
+      </div>
+      <div class="field">
+        <label for="f-phone">WhatsApp o teléfono</label>
+        <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="Tu número con lada" aria-describedby="e-phone">
+        <p class="field__err" id="e-phone" role="alert"></p>
+      </div>
+      <div class="field">
+        <label for="f-type">¿Qué quieres desarrollar?</label>
+        <div class="select">
+          <select id="f-type" name="type" required aria-describedby="e-type">
+            <option value="" selected disabled>Elige una opción</option>
+            <option>Casa nueva</option>
+            <option>Remodelación o ampliación</option>
+            <option>Local u oficina</option>
+            <option>Diseño de interiores</option>
+            <option>Edificio o desarrollo</option>
+            <option>Aún no lo tengo claro</option>
+          </select>
+          <svg class="ico" aria-hidden="true"><use href="#i-caret-down"/></svg>
+        </div>
+        <p class="field__err" id="e-type" role="alert"></p>
+      </div>
+      <div class="field">
+        <label for="f-loc">Ubicación del proyecto <span>(opcional)</span></label>
+        <input id="f-loc" name="location" type="text" autocomplete="address-level2" placeholder="Ciudad o colonia">
+      </div>
+      <div class="field">
+        <label for="f-msg">Cuéntanos tu idea <span>(opcional)</span></label>
+        <textarea id="f-msg" name="message" rows="4" placeholder="Metros aproximados, estilo, tiempos, lo que tengas en mente"></textarea>
+      </div>
+      <button class="btn btn--primary btn--lg btn--block" type="submit" data-magnetic>
+        <svg class="ico" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>
+        <span>Enviar mi proyecto</span>
+      </button>
+      <p class="form__note" id="formStatus" role="status" aria-live="polite">Al enviar se abrirá WhatsApp con tu mensaje listo.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ================================================================
+     FOOTER
+     ================================================================ -->
+<footer class="footer">
+  <div class="container footer__top">
+    <div class="footer__brand">
+      <img src="img/logo-akimia.webp" alt="Akimia Estudio. Arquitectura, diseño, construcción" width="900" height="448" loading="lazy">
+      <p>Arquitectura, diseño y construcción para quienes quieren un proyecto bien pensado y bien ejecutado.</p>
+    </div>
+    <nav class="footer__col" aria-label="Servicios">
+      <h2 class="footer__h">Servicios</h2>
+      <ul>
+        <li><a href="#servicios">Arquitectura</a></li>
+        <li><a href="#servicios">Diseño</a></li>
+        <li><a href="#servicios">Construcción</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__col" aria-label="Explora">
+      <h2 class="footer__h">Explora</h2>
+      <ul>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#porque">Por qué Akimia</a></li>
+        <li><a href="#preguntas">Preguntas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="footer__col">
+      <h2 class="footer__h">Hablemos</h2>
+      <ul>
+        <li><a href="#contacto" data-wa="Hola Akimia Estudio, quiero información sobre un proyecto." data-phone>+52 000 000 0000</a></li>
+        <li data-email-row hidden><a href="#" data-email></a></li>
+      </ul>
+      <div class="social" aria-label="Redes sociales">
+        <a href="#" data-social="instagram" aria-label="Instagram de Akimia Estudio" hidden><svg class="ico" aria-hidden="true"><use href="#i-instagram-logo"/></svg></a>
+        <a href="#" data-social="facebook" aria-label="Facebook de Akimia Estudio" hidden><svg class="ico" aria-hidden="true"><use href="#i-facebook-logo"/></svg></a>
+        <a href="#" data-social="tiktok" aria-label="TikTok de Akimia Estudio" hidden><svg class="ico" aria-hidden="true"><use href="#i-tiktok-logo"/></svg></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__word" id="footerWord" aria-hidden="true">AKIMIA</div>
+
+  <div class="container footer__bottom">
+    <p>© <span data-year>2026</span> Akimia Estudio. Todos los derechos reservados.</p>
+    <a href="#inicio">Volver arriba <svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+  </div>
+</footer>
+
+<!-- ================================================================
+     BOTÓN FLOTANTE DE WHATSAPP
+     ================================================================ -->
+<div class="wa" id="wa">
+  <span class="wa__tip" id="waTip" role="status">¿Hablamos de tu proyecto?<button type="button" id="waTipClose" aria-label="Cerrar aviso">×</button></span>
+  <a class="wa__btn" href="#contacto" data-wa="Hola Akimia Estudio, quiero información sobre un proyecto." aria-label="Escríbenos por WhatsApp">
+    <span class="wa__pulse" aria-hidden="true"></span>
+    <svg class="ico ico--lg" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>
+  </a>
+</div>
+
+<!-- ================================================================
+     LIGHTBOX (vista ampliada de proyectos)
+     ================================================================ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada del proyecto" aria-hidden="true" inert>
+  <button class="lightbox__close" id="lbClose" type="button" aria-label="Cerrar vista ampliada"><svg class="ico" aria-hidden="true"><use href="#i-x"/></svg></button>
+  <figure class="lightbox__fig">
+    <img id="lbImg" src="" alt="">
+    <figcaption>
+      <div>
+        <strong id="lbTitle"></strong>
+        <span id="lbText"></span>
+      </div>
+      <a class="btn btn--primary" id="lbCta" href="#contacto" data-wa="">
+        <span>Quiero algo así</span>
+        <svg class="ico" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+      </a>
+    </figcaption>
+  </figure>
+</div>
+
+<script src="app.js" defer></script>
+</body>
+</html>
