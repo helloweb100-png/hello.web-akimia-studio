@@ -249,7 +249,7 @@
     const words = text.split(' ').map((word, i, arr) => {
       const s = document.createElement('span');
       s.className = 'w'; s.setAttribute('aria-hidden', 'true'); s.textContent = word;
-      if (/^akimia/i.test(word)) s.classList.add('acc');
+      if (/^alkimia/i.test(word)) s.classList.add('acc');
       el.appendChild(s);
       if (i < arr.length - 1) el.appendChild(document.createTextNode(' '));
       return s;
@@ -907,7 +907,7 @@
       title.textContent = $('h3', card).textContent;
       text.textContent = $('p', card).textContent;
       const msg = $('[data-wa]', card);
-      cta.href = waLink(msg ? msg.dataset.wa : 'Hola Akimia Estudio, quiero información sobre un proyecto.');
+      cta.href = waLink(msg ? msg.dataset.wa : 'Hola Alkimia Estudio, quiero información sobre un proyecto.');
       cta.target = '_blank'; cta.rel = 'noopener noreferrer';
       opener = trigger;
       box.inert = false; box.setAttribute('aria-hidden', 'false');
@@ -978,7 +978,7 @@
       e.preventDefault();
       const ok = Object.keys(rules).map(check).every(Boolean);
       if (!ok) { const bad = Object.keys(rules).find(k => !check(k)); f[bad].focus(); return; }
-      const parts = [`Hola Akimia Estudio, soy ${f.name.value.trim()}.`, `Quiero desarrollar: ${f.type.value}.`];
+      const parts = [`Hola Alkimia Estudio, soy ${f.name.value.trim()}.`, `Quiero desarrollar: ${f.type.value}.`];
       if (f.loc.value.trim()) parts.push(`Ubicación: ${f.loc.value.trim()}.`);
       if (f.msg.value.trim()) parts.push(`Mi idea: ${f.msg.value.trim()}`);
       parts.push(`Mi contacto: ${f.phone.value.trim()}.`);
