@@ -20,9 +20,9 @@
      ======================================================================== */
   const CONFIG = {
     // Número de WhatsApp con código de país, solo dígitos. Ej. México: '5212221234567'
-    whatsapp: '520000000000',
+    whatsapp: '524641664339',
     // Cómo se muestra el número en la página
-    whatsappLabel: '+52 000 000 0000',
+    whatsappLabel: '+52 464 166 4339',
     // Correo de contacto (déjalo vacío para ocultarlo)
     email: '',
     // Redes sociales (déjalas vacías para ocultar el ícono)
